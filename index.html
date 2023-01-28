@@ -4,14 +4,154 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CSS -->
     <link rel="stylesheet" href="./style/main.css" />
-    <title>Kulineran</title>
+    <title>Kulineran - Your Best Restaurant</title>
   </head>
   <body>
-    <h1>Kulineran</h1>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-light p-3">
+      <div class="container">
+        <a class="fs-3 navbar-brand text-success fw-semibold" href="#"
+          >Kulineran</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/foods.html">Foods</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/cart.html"
+                >Cart
+                <span class="bg-success text-white py-1 px-2 rounded"
+                  >0</span
+                ></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <!-- Bootstrap Script -->
+    <!-- Page Content -->
+    <div>
+      <!-- Hero Image -->
+      <section class="hero p-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <img
+                src="./images/ilustrasi.png"
+                alt="Ilustrasi"
+                class="img-fluid w-50"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Best Product -->
+      <section class="best-product p-3">
+        <div class="container">
+          <!-- Best Product Title -->
+          <div class="row">
+            <div class="col-lg-6">
+              <p class="fs-4">Best <span class="fw-bold">Foods</span></p>
+            </div>
+            <div class="col-lg-6 text-end">
+              <a href="/foods.html" class="btn btn-sm btn-success text-white">
+                View All
+              </a>
+            </div>
+          </div>
+          <!-- Best Product Cards -->
+          <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center">
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./images/default.png"
+                  class="card-img-top"
+                  alt="Default"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./images/default.png"
+                  class="card-img-top"
+                  alt="Default"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./images/default.png"
+                  class="card-img-top"
+                  alt="Default"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./images/default.png"
+                  class="card-img-top"
+                  alt="Default"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Bootstrap Bundle -->
     <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
